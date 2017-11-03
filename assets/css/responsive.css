@@ -305,7 +305,7 @@
 	.navbar-custom .navbar-nav > li > a, 
 	.navbar-custom .navbar-nav .dropdown-menu > li > a{
 		font-size: 12px;
-		padding: 15px;
+/*		padding: 0px !important;*/
 	}
 
 	/*about me section*/

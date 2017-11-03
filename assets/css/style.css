@@ -15,7 +15,7 @@
     4. Navigation
     5. About
     6. Video
-    7. Resume
+    7.                                      
     8. Skill
     9. Chart
     10. Work
@@ -178,7 +178,7 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 28px;
-    padding: 9px 22px;
+    /*padding: 9px 22px;*/
 }
 
 /*large-btn*/
@@ -191,6 +191,12 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
+    background-color:#68c3a3;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+/*navbar-btn*/
+.navbar-btn{
     background-color:#68c3a3;
     border-color: rgba(51, 51, 51, 0.15);
 }
@@ -1811,4 +1817,10 @@ Icon for all respective meta
     border: 5px solid #FFF;
     padding: 5px;
     box-shadow: 0 0px 0px 1px #eee;
+}
+
+/*custom styles*/
+a.downLink {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
